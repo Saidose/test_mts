@@ -5,4 +5,4 @@ In solving this task, two docker-compose files were created, which launched the 
 Metrics were passed using starlette_exporter.
 I connected grafana and created dashboards.
 
-docker-compose -f docker-compose.yml docker-compose-infra.yml run
+docker-compose -f docker-compose.yml docker-compose-infra.yml up
